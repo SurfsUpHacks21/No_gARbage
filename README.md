@@ -33,8 +33,12 @@ We used SparkAR for building immersive AR, 3D and a 360 degree games which made 
 
 
 ## What we learned
-- We learned how to make an immersive AR game using a technology we have never used before
-- 
+- We learned how to make an immersive AR game using a technology we have never used before We learned how to make an immersive AR game using a technology we have never used before
+
+   - We learned how light works in a 3D environment
+   - We learned how to make some of our own 3D objects and assets
+   - We leant how face mapping and tracking can be used to make helpful simple projects
+   - We also learned to code in a 3D studio and to interact with the patches (code blocks) to build the logic for the game
 
 ## What's next for No gARbage
 - We will be deploying it to instagram and facebook so that the audience can start using it and it'll reach everyone and hoping to bring a change!
