@@ -16,16 +16,21 @@ We used SparkAR for building immersive AR, 3D and a 360 degree games which made 
 <img src="https://github.com/SurfsUpHacks21/No_gARbage/blob/main/screenshots/cleanDaBeach_patches.jpg?raw=true">
 
 ## Challenges we ran into
-There were very few working codes from 2020 for Spark AR. Thus, we had to manually modify and recreate our own codes. 
-The Spark AR application was very hard to work with. 
-All of us were completely new to Spark AR. 
-
+- There were very few working tutorials from 2020 for Spark AR. Thus, we had to manually modify and recreate our own codes.
+- The Spark AR application was very hard to work with due to its intensive CPU and graphic requirements.
+- All of us were completely new to Spark AR. Initially it was difficult to navigate the application, but after fiddling with it a bit and with some help from our teammates, we were able to work the functions and start creating!
+- We need to make sure the filters were available cross platform and for older devices too, also keeping their size as small as possible.
 ## Accomplishments that we're proud of
-We were able to bring some awareness with these games and social message.
+- We were able to bring some awareness with these games and social message.
+- Learning how to utilise the various available Spark AR functions to create the type of games that we wanted.
+- Being able to execute our many game ideas and producing 5 working games!
+
 
 ## What we learned
 We learned how to make an immersive AR game using a technology we have never used before
 
 ## What's next for No gARbage
-We will be deploying it to instagram and facebook so that the audience can start using it and it'll reach everyone and hoping to bring a change!
+- We will be deploying it to instagram and facebook so that the audience can start using it and it'll reach everyone and hoping to bring a change!
+- We aim to create more interactive and educational games, with more levels and different functions to increase the quality of our games.
+- We aim to expand beyond Instagram and Facebook, by venturing into other social media applications like Snapchat and TikTok to gain a wider audience.
 
