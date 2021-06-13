@@ -1,0 +1,457 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 11105,
+      "max": [
+        3.3838582038879395,
+        6.7770590782165527,
+        10.342532157897949
+      ],
+      "min": [
+        -3.3591423034667969,
+        0.043837577104568481,
+        -10.414510726928711
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 133260,
+      "componentType": 5126,
+      "count": 11105,
+      "max": [
+        0.99996334314346313,
+        0.99999922513961792,
+        0.99999254941940308
+      ],
+      "min": [
+        -0.99996334314346313,
+        -0.99997758865356445,
+        -0.99999207258224487
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 11105,
+      "max": [
+        0.99999338388442993,
+        0.99999934434890747,
+        0.99996602535247803,
+        1
+      ],
+      "min": [
+        -0.99852025508880615,
+        -0.99992066621780396,
+        -1,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11105,
+      "max": [
+        0.98528563976287842,
+        0.99950039386749268
+      ],
+      "min": [
+        0.00049239397048950195,
+        0.00049949809908866882
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 60672,
+      "max": [
+        11104
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 266520,
+      "componentType": 5126,
+      "count": 1840,
+      "max": [
+        1.4913250207901001,
+        4.8188791275024414,
+        10.432313919067383
+      ],
+      "min": [
+        -1.4898943901062012,
+        1.833553671836853,
+        9.0688571929931641
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 288600,
+      "componentType": 5126,
+      "count": 1840,
+      "max": [
+        0.99996334314346313,
+        0.99995315074920654,
+        0.99999105930328369
+      ],
+      "min": [
+        -0.99996328353881836,
+        -0.99995523691177368,
+        -0.99999207258224487
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 177680,
+      "componentType": 5126,
+      "count": 1840,
+      "max": [
+        1,
+        0.98640000820159912,
+        0.9999920129776001,
+        1
+      ],
+      "min": [
+        -0.98707890510559082,
+        -0.98797404766082764,
+        -0.86438214778900146,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 88840,
+      "componentType": 5126,
+      "count": 1840,
+      "max": [
+        0.76010602712631226,
+        0.99950045347213745
+      ],
+      "min": [
+        0.00037986040115356445,
+        0.00049948692321777344
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 242688,
+      "componentType": 5125,
+      "count": 9984,
+      "max": [
+        1839
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "RoutineStudios (https://sketchfab.com/TheRoutine)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/plastic-water-bottle-731efe2635c9472c9c1e4fdb1f8fbd13",
+      "title": "Plastic Water Bottle"
+    },
+    "generator": "Sketchfab-9.22.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 282624,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 103560,
+      "byteOffset": 282624,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 310680,
+      "byteOffset": 386184,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 207120,
+      "byteOffset": 696864,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 903984,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/WaterBottle1_baseColor.png"
+    },
+    {
+      "uri": "textures/WaterBottle1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/WaterBottle1_normal.png"
+    },
+    {
+      "uri": "textures/BottleCap_baseColor.png"
+    },
+    {
+      "uri": "textures/BottleCap_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/BottleCap_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "WaterBottle1",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "BottleCap",
+      "normalTexture": {
+        "index": 5,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 4,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Beat_Water_Bottle_WaterBottle1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Bottle_Cap_BottleCap_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Plastic Water Bottle .fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "name": "Beat_Water_Bottle"
+    },
+    {
+      "mesh": 0,
+      "name": "Beat_Water_Bottle_WaterBottle1_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "name": "Bottle_Cap"
+    },
+    {
+      "mesh": 1,
+      "name": "Bottle_Cap_BottleCap_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
+
