@@ -1,4 +1,10 @@
 
+h1 {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
 html, body {
   height: 100vh;
   background: rgb(81, 139, 187);
