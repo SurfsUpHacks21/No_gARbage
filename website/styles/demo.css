@@ -1,0 +1,118 @@
+body {
+    background:rgb(76, 150, 196);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+/* LAYOUT */
+/**
+ * Make body at least 100% height
+ * You can also use a combination
+ * of height: 100% in <html> and
+ * min-height: 100% in <body>.
+ */
+ .holy-grail {
+	min-height: 100vh;
+}
+
+/**
+ * Let's do a column distribution
+ * (mobile first)
+ * flex value is 1 1 auto to make
+ * body skrinkable and extensible
+ */
+.holy-grail,
+.holy-grail-body {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+}
+
+/**
+ * Content body item is made
+ * extensible too.
+ */
+.holy-grail-content {
+	flex: 1 1 auto;
+  padding-top: 10px 
+}
+
+/**
+ * Put the first sidebar before content.
+ * If you need sidebar to be before content
+ * only in big screen put those 3 next lines
+ * in @media block.
+ */
+
+
+/**
+ * Let's introduce bigger screen
+ */
+
+@media (min-width: 768px) {
+	/**
+	 * Body items are now side by side
+	 */
+	.holy-grail-body {
+		flex-direction: row;
+	}
+
+	/**
+	 * Sidebars have a basic 260 width
+	 * and are not really flexible anymore
+	 */
+	.hg-sidebar {
+		flex: 0 0 260px;
+	}
+}
+
+/* NAV */
+
+
+.logo {
+    color: rgb(12, 33, 71);
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px gray, 0 0 25px whitesmoke, 00 2px white;
+}
+
+
+.center {
+  position: relative;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.bot-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.crab {
+  position: relative;
+  top: -200px;  
+  left: 1px;
+  float: left;
+}
+
+.clam {
+  position: relative;
+  top: -250px;  
+  right: 50px;
+  float: right;
+}
+
+.shark {
+  position: relative;
+  top: -575px;  
+  right: -200px;
+  float: right;
+}
+

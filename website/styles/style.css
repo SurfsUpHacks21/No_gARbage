@@ -1,0 +1,308 @@
+
+html, body {
+  height: 100vh;
+  background: rgb(81, 139, 187);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.scene {
+  perspective: 1500px; 
+  perspective-origin: 50% 50%;
+  width: 260px;
+  height: 450px;
+}
+
+.phone {
+  position: relative;
+  transform-style: preserve-3d;
+  width: 230px;
+  height: 400px;
+  transform: rotateY(-60deg);
+  /*border: 1px solid green;*/
+  animation: animate 20s infinite;
+}
+
+.face {
+  position: absolute;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+.front, .back {
+  width: 230px;
+  height: 400px; 
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+
+.front {
+  box-shadow: 1px 0px 5px inset rgb(192, 192, 192, 0.1), -1px -1px 5px inset rgb(192, 192, 192, 0.1);
+  
+ 
+}
+
+.back {
+  border: 0;
+  box-shadow: 1px 0px 5px inset rgb(192, 192, 192, 0.1), -1px -1px 5px inset rgb(192, 192, 192, 0.1); 
+}
+
+
+.frontBack {
+  transform: translateZ(9.5px);
+  background: black;
+  width: 230px;
+  height: 400px; 
+}
+
+.inFront {
+  background: url("https://ifycode.github.io/3d-css-animated-phone/img/Penguins.jpg") 50% 70%/ cover no-repeat;
+  width: 96%;
+  height: 95%;
+  border-radius: 15px;
+  margin-top: 8px;
+  animation: bg 50s 12s infinite;
+}
+
+.inFront::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: black;
+  border-radius: 50%;
+  margin-left: 41%;
+  top: -7px;
+}
+
+.inFront::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: rgb(192, 192, 192, 0.15);
+  border-radius: 50%;
+  margin-left: 46.5%;
+  top: 9px;
+}
+
+.inBack {
+  width: 30px;
+  height: 60px;
+  border-radius: 12px;
+  margin-top: 12px;
+  box-shadow: 1px 1px 5px inset rgb(192, 192, 192, 0.2), -1px -1px 5px inset rgb(192, 192, 192, 0.2);
+}
+
+.inBack::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background: rgb(192, 192, 192, 0.15);
+  border-radius: 50%;
+  top: 22px;
+  left: 46%;
+  box-shadow: 1px 1px 5px inset rgb(192, 192, 192, 0.2), -1px -1px 5px inset rgb(192, 192, 192, 0.2);
+}
+
+.inBack::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: rgb(192, 192, 192, 0.15);
+  border-radius: 50%;
+  top: 49px;
+  left: 47%;
+  box-shadow: 1px 1px 5px inset rgb(192, 192, 192, 0.2), -1px -1px 5px inset rgb(192, 192, 192, 0.2);
+
+
+}
+
+.right, .left {
+  width: 20px;
+  height: 400px;
+ /* background: rgb(255, 255, 0, 0.7);*/
+  left: 105px;
+  display: flex;
+  align-items: center;
+}
+
+
+.right {
+  left: 105px;
+}
+
+.inRight, .inLeft {
+  width: 20px;
+  height: 370px;
+  background: black;
+  
+}
+
+.inRight::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 60px;
+  border-radius: 10px;
+  top: 40px;
+  left: 5px;
+  box-shadow: 1px 1px 5px inset rgb(255, 215, 0, 0.5), -1px -1px 5px inset rgb(192, 192, 192, 0.2);
+}
+
+.inRight::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 40px;
+  border-radius: 10px;
+  top: 120px;
+  left: 5px;
+  box-shadow: 1px 1px 5px inset rgb(40, 88, 128), -1px -1px 5px inset rgb(192, 192, 192, 0.2);
+
+
+}
+
+.top, .bottom {
+  /*margin-left: auto;
+  margin-right: auto;*/
+  width: 230px;
+  height: 20px;
+  /*background: rgb(255, 0, 0, 0.7);*/
+  top: 189px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.top {
+  top: 191px;
+}
+
+.inTop, .inBottom {
+  width: 200px;
+  height: 20px;
+  background: black;
+
+}
+
+.front {
+  transform: rotateY(0deg) translateZ(10px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(10px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(115px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(115px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(200px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(200px);
+}
+
+@keyframes animate {
+  0%{
+      transform: rotateY(0deg); 
+  }
+
+  100%{
+      transform: rotateY(-360deg); 
+  }
+}
+
+
+@keyframes bg {
+
+  25% {
+      background: url("https://ifycode.github.io/3d-css-animated-phone/img/Jellyfish.jpg") 0 0/ cover no-repeat;
+     
+  }
+
+  50% {
+      background: url("https://ifycode.github.io/3d-css-animated-phone/img/Jellyfish.jpg") 0 0/ cover no-repeat;
+     
+  }
+
+  70% {
+      background: url("https://ifycode.github.io/3d-css-animated-phone/img/Tulips.jpg") 0 0/ cover no-repeat;
+  }
+
+  90% {
+      background: url("https://ifycode.github.io/3d-css-animated-phone/img/Tulips.jpg") 0 0/ cover no-repeat;
+  }
+
+
+}
+
+
+p {
+  position: absolute;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  opacity: 0.4;
+  transform: rotate(90deg);
+  bottom: 40%;
+
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+ }
+ 
+nav {
+	background: rgb(154, 180, 201);
+	color: #000;
+	font-family: ubuntu;
+	height: 70px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+ }
+ 
+	nav > div {
+		background: inherit;
+		cursor: pointer;
+		display: inline-block;
+		height: inherit;
+		line-height: 70px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		width: 25%;
+	 }
+ 
+		nav > div:hover {
+			background: #a0c7c9;
+			border-bottom: 5px solid #545454;
+			border-left: 10px solid #939393;
+			border-right: 10px solid #939393;
+			border-top: 5px solid #545454;
+			line-height: 60px;
+			transition: .3s;
+		 }
+ 
+ 
