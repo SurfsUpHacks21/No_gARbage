@@ -29,7 +29,7 @@ header { cursor: pointer; }
   width: 100%;
   height: 250px;
   background: center / cover;
-  background-image: url(images/garbage.jpg);
+  background-image: url(https://raw.githubusercontent.com/SurfsUpHacks21/No_gARbage/main/website/images/garbage.jpg);
 }
 
 .title {
