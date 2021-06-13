@@ -34,3 +34,7 @@ We learned how to make an immersive AR game using a technology we have never use
 - We aim to create more interactive and educational games, with more levels and different functions to increase the quality of our games.
 - We aim to expand beyond Instagram and Facebook, by venturing into other social media applications like Snapchat and TikTok to gain a wider audience.
 
+## Tutorial
+A tutorial on how you can try out our filters can be found [here](https://github.com/SurfsUpHacks21/images/blob/main/tutorial%20for%20ig%20filters.gif).
+
+![IG tutorial](https://github.com/SurfsUpHacks21/images/blob/main/tutorial%20for%20ig%20filters.gif?raw=true)
