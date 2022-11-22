@@ -21,6 +21,8 @@ As most of us use Instagram and Facebook, we thought this could be the best way 
 We used SparkAR for building immersive AR, 3D and a 360 degree games which made up our three levels. Blender for building the 3D models.
 <img src="https://github.com/SurfsUpHacks21/No_gARbage/blob/main/screenshots/cleanDaBeach_patches.jpg?raw=true">
 <img src="https://github.com/SurfsUpHacks21/No_gARbage/blob/main/screenshots/8mb.video-QQw-YsIyvI62.gif">
+![Studio BTS](https://github.com/SurfsUpHacks21/images/blob/main/workings.gif?raw=true)
+
 
 ## Challenges we ran into
 - There were very few working tutorials from 2020 for Spark AR. Thus, we had to manually modify and recreate our own codes.
